@@ -4,6 +4,24 @@ The goal here is to implement a typescript implementation of the [Minesweeper ga
 
 ## Goal
 
+You should write a program that, given an arbitrary field with mines, outputs the field where each empty space contains the number of mines it is adjacent to.
+
+For example, for a given field: 
+```
+*...
+....
+.*..
+....
+```
+
+The program should output:
+```
+*100
+2210
+1*10
+1110
+```
+
 ## Prerequisites
 
 You need typescript and tsd installed:
